@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.UI;
 using UnityEngine;
 
 public class ButtonBehavours : MonoBehaviour {
@@ -8,15 +9,12 @@ public class ButtonBehavours : MonoBehaviour {
 
     public void OnClickAddMoney()
     {
-        CloseAllWindows();
         MoneyPopup.SetActive(true);
-        
     }
 
 
 
-    public void CloseAllWindows()
+    public void CloseAllWindows(Button button)
     {
-
     }
 }
